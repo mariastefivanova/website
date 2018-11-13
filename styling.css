@@ -1,0 +1,35 @@
+body{
+  background: url("background.jpeg");
+  background-size: cover;
+}
+
+
+
+header{
+text-align: center;
+  background:white;
+  opacity:0.7;
+  color: grey;
+  font-family: "Amatic SC", "arial";
+  font-size: 40px;
+
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+#home{
+  text-decoration: underline;
+}
+
+ul.nav li{
+    display: inline-block;
+    padding-right: 10px;
+    background: none;
+}
+
+.nav a:hover{
+  color: hotpink;
+}
