@@ -66,6 +66,7 @@ h1 {
 mark {
   color: #000;
   background: #ff0;
+
 }
 small {
   font-size: 80%;
@@ -4956,28 +4957,38 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   color: inherit;
-  background-color: #eee;
+
+  font-family: "Amatic SC", "arial";
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+
+  background:white;
+  opacity:0.9;
+  color: black;
+  font-size: 30px;
 }
 .jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
+  margin-bottom: 0px;
+
+  font-size: 23px;
   font-weight: 200;
+  background: white;
+  opacity:0.6;
+  color: black;
 }
 .jumbotron > hr {
-  border-top-color: #d5d5d5;
+  border-top-color: white;
+  opacity: 0.6;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 6px;
 }
 .jumbotron .container {
@@ -4985,8 +4996,9 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 5px;
+margin-top: 5px;
+    padding-bottom: 5px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {

@@ -1,5 +1,5 @@
 body{
-  background: url("background.jpeg");
+  background: url("ladebraes.jpg");
   background-size: cover;
 }
 
@@ -11,8 +11,12 @@ text-align: center;
   opacity:0.7;
   color: grey;
   font-family: "Amatic SC", "arial";
-  font-size: 40px;
+  font-size: 30px;
 
+}
+ul.nav{
+  background: #ffeff6;
+  opacity: 0.9;
 }
 
 a{
@@ -21,7 +25,7 @@ a{
 }
 
 #home{
-  text-decoration: underline;
+  decoration: underline;
 }
 
 ul.nav li{
