@@ -40,7 +40,9 @@ ul.nav li{
     padding-right: 10px;
 
 }
-
+.container {
+  font-family: "Amatic SC", "arial";
+}
 .nav a:hover{
     color: darkgreen;
 

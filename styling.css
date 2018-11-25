@@ -33,16 +33,16 @@ a{
 }
 
 ul.nav li{
+  color: darkgreen;
   font-weight: 400;
   background: #e9fcf8;
   background opacity: 1.0;
     display: inline-block;
     padding-right: 10px;
-    
+
 }
 
 .nav a:hover{
-  background-color: blue;
-  color: darkgreen;
+    color: darkgreen;
 
 }
