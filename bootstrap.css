@@ -4960,18 +4960,18 @@ a.badge:focus {
 
 margin-top: 40px;
   padding-bottom: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   color: inherit;
 
   font-family: "Amatic SC", "arial";
 }
 .jumbotron h1,
 .jumbotron .h1 {
-
+  margin-top: 60px;
   background:white;
-  opacity:0.8;
+  opacity:0.9;
   color: #031b00;
-  font-size: 30px;
+  font-size: 50px;
 }
 .jumbotron p {
   margin-bottom: 0px;
@@ -5009,7 +5009,7 @@ margin-top: 10px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 65px;
+    font-size: 80px;
   }
 }
 .thumbnail {
