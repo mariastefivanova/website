@@ -1,0 +1,103 @@
+body{
+  background: url("beach.jpg");
+  background-size: cover;
+}
+
+
+
+
+header{
+
+text-align: center;
+  font-family: "Amatic SC", "arial";
+
+
+}
+.nav > li {
+  position: relative;
+  display: block;
+  color: #9aa8cb;
+  }
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 5px 5px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #cff7e7;
+  opacity: 0.6;
+}
+ul.nav{
+  padding-top: 0px;
+  font-weight: 400;
+  background: #e9fcf8;
+  background opacity: 1.0;
+  opacity: 1.0;
+  font-size: 34px;
+
+}
+
+a{
+  color: #9aa8cb;
+  text-decoration: none;
+}
+
+#home{
+  decoration: underline;
+}
+
+ul.nav li{
+  font-weight: 400;
+  background: #e9fcf8;
+  background opacity: 1.0;
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+.nav a:hover{
+    color: darkblue;
+
+}
+img {
+
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 150px;
+}
+
+.left {
+ float: left;
+ padding: 20px 20px 20px 20px;
+}
+
+.container{
+  color: #282828;
+  font-family: "Amatic SC", "arial";
+  font-size: 15px;
+}
+
+.container p{
+  text-align: center;
+  font-size: 30px;
+  color: #292d45;
+  text-decoration: underline;
+}
+
+  .container1{
+    align-items: left;
+    color: #282828;
+    font-family: "Amatic SC", "arial";
+    font-size: 15px;
+  }
+
+  .container1 p{
+    text-align: center;
+    font-size: 30px;
+    color: #292d45;
+    text-decoration: underline;}

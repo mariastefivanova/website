@@ -18,7 +18,7 @@ ul.nav{
   font-weight: 400;
   background: #e9fcf8;
   background opacity: 1.0;
-  opacity: 1.0;
+  opacity: .0.9;
   font-size: 34px;
 
 }
@@ -28,21 +28,19 @@ a{
   text-decoration: none;
 }
 
-#home{
-  decoration: underline;
-}
 
 ul.nav li{
-  color: darkgreen;
+  color: darkblue;
   font-weight: 400;
   background: #e9fcf8;
-  background opacity: 1.0;
+  background opacity: 0.8;
     display: inline-block;
     padding-right: 10px;
 
 }
 
 .nav a:hover{
-    color: darkgreen;
+    color: darkblue;
+
 
 }

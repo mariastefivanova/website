@@ -3980,16 +3980,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  color: darkblue;
 }
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 5px 5px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #cff7e7;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -3997,7 +3998,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
   color: #777;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: not-allowed;
   background-color: transparent;
 }
@@ -4958,7 +4959,7 @@ a.badge:focus {
 }
 .jumbotron {
 
-margin-top: 40px;
+margin-top: 20px;
   padding-bottom: 40px;
   margin-bottom: 30px;
   color: inherit;
