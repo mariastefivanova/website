@@ -115,6 +115,7 @@ img {
 	transition: color 0.3s;
 }
 
+}
 .nav a::before,
 .nav a::after {
 	position: absolute;
