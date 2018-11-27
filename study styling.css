@@ -3,9 +3,53 @@ body{
   background-size: cover;
 }
 
+.brighten img {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
 
+.brighten img:hover {
+  -webkit-filter: brightness(60%);
+}
 
+.nav a::before,
+.nav a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
 
+.nav a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.nav a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.nav a:hover::before,
+.nav a:hover::after,
+.nav a:focus::before,
+.nav a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
 header{
 
 text-align: center;
@@ -13,6 +57,7 @@ text-align: center;
 
 
 }
+
 .nav > li {
   position: relative;
   display: block;
@@ -58,7 +103,7 @@ ul.nav li{
 }
 
 .nav a:hover{
-    color: darkblue;
+    color: #251738;
 
 }
 img {
@@ -87,9 +132,14 @@ img {
   text-align: center;
   font-size: 30px;
   color: #292d45;
-  text-decoration: underline;
-}
 
+}
+.container pre{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: black;
+}
   .container1{
     text-align: center;
 
@@ -102,4 +152,10 @@ img {
     text-align: center;
     font-size: 30px;
     color: #292d45;
-    text-decoration: underline;}
+    }
+    .container1 pre{
+      text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 18px;
+      color: black;
+    }
