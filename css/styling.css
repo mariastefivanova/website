@@ -99,7 +99,18 @@ img {
     background-attachment:scroll;
   }
 }
+/* Add a hover effect if you want */
+.fa:hover {
+   opacity: 0.6;
+}
 
+
+/* Instagram */
+.fa-instagram {
+ background: #125688;
+ color: white;
+  margin-left: 20px;
+}
 
 .nav {
 	position: relative;
