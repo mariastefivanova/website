@@ -38,12 +38,12 @@ img {
 }
 
 .pimg1{
-  background-image:url('background13.jpg');
+  background-image:url('images/background13.jpg');
   min-height:100%;
 }
 
 .pimg2{
-  background-image:url('ladebraes.jpg');
+  background-image:url('images/ladebraes.jpg');
   min-height:400px;
 }
 

@@ -1,20 +1,8 @@
 body{
-  background: url("appricot.jpg");
+  background: url("images/try1.jpg");
   background-size: cover;
 }
 
-.brighten img {
-  -webkit-filter: brightness(100%);
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.brighten img:hover {
-  -webkit-filter: brightness(60%);
-}
 
 .nav a::before,
 .nav a::after {
@@ -76,9 +64,10 @@ text-align: center;
 }
 ul.nav{
   padding-top: 0px;
-  color: darkblue;
-  background-color: #faf3f2;
-  opacity: 0.9;
+  font-weight: 400;
+  background: #faf3f2;
+  background opacity: 1.0;
+  opacity: 1.0;
   font-size: 34px;
 
 }
@@ -88,11 +77,14 @@ a{
   text-decoration: none;
 }
 
-
+#home{
+  decoration: underline;
+}
 
 ul.nav li{
-  font opacity: 1.0;
-    background opacity: inherit;
+  font-weight: 400;
+  background: #faf3f2;
+  background opacity: 1.0;
     display: inline-block;
     padding-right: 10px;
 
@@ -100,30 +92,38 @@ ul.nav li{
 
 .nav a:hover{
     color: #251738;
-    background-color: #faf3f2;
 
 }
 img {
 
-    border: 2px solid grey;
+    border: 1px solid grey;
     border-radius: 4px;
     padding: 20px;
     margin-left: 30px;
-
-    margin-top: 20px;
+    margin-top: 30px;
     width: 150px;
+
+}
+.brighten img {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
 
+.brighten img:hover {
+  -webkit-filter: brightness(60%);
+}
 .left {
  float: left;
  padding: 20px 20px 20px 20px;
 }
 
 .container{
-  text-align: center;
-
   color: #282828;
-  font-family:  "Amatic SC", "arial";
+  font-family: "Amatic SC", "arial";
   font-size: 15px;
 }
 
@@ -140,15 +140,14 @@ img {
   color: black;
 }
   .container1{
-    text-align: center;
-
+    align-items: left;
     color: #282828;
-    font-family:  "Amatic SC", "arial";
+    font-family: "Amatic SC", "arial";
     font-size: 15px;
   }
 
   .container1 p{
-    text-align: auto;
+    text-align: center;
     font-size: 30px;
     color: #292d45;
     }
