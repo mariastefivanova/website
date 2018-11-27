@@ -4959,49 +4959,55 @@ a.badge:focus {
 }
 .jumbotron {
 
-margin-top: 20px;
-  padding-bottom: 40px;
-  margin-bottom: 30px;
+margin-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
   color: inherit;
 
   font-family: "Amatic SC", "arial";
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  margin-top: 60px;
+  margin-top: 5px;
   background:white;
-  opacity:0.9;
+
   color: #031b00;
   font-size: 50px;
 }
 .jumbotron p {
   margin-bottom: 0px;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 10px;
   font-weight: 200;
   background: white;
-  opacity:0.6;
+
   color: black;
 }
 .jumbotron > hr {
   border-top-color: white;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
   padding-right: 50px;
   padding-left: 50px;
   border-radius: 6px;
+  
+
+
 }
 .jumbotron .container {
   max-width: 100%;
+
+
+
 
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
 
-margin-top: 10px;
-    padding-bottom: 10px;
+margin-top: 0px;
+    padding-bottom: 0px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -5010,7 +5016,7 @@ margin-top: 10px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 80px;
+    font-size: 65px;
   }
 }
 .thumbnail {
