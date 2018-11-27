@@ -1,0 +1,227 @@
+body{
+  background: url("pots.jpg");
+  background-size: cover;
+}
+
+.nav a::before,
+.nav a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.nav a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.nav a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.nav a:hover::before,
+.nav a:hover::after,
+.nav a:focus::before,
+.nav a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+header{
+
+text-align: center;
+  font-family: "Amatic SC", "arial";
+
+
+}
+.nav > li {
+  position: relative;
+  display: block;
+  color: #9aa8cb;
+  }
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 5px 5px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #faf3f2;
+  opacity: 0.6;
+}
+ul.nav{
+  padding-top: 0px;
+  color: darkblue;
+  background-color: #faf3f2;
+  opacity: 0.9;
+  font-size: 34px;
+
+}
+
+a{
+  color: #9aa8cb;
+  text-decoration: none;
+}
+
+
+
+ul.nav li{
+  font opacity: 1.0;
+    background opacity: inherit;
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+.nav a:hover{
+    color: #251738;
+    background-color: #faf3f2;
+
+}
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+    border-top: solid #531230 0.5px;
+    border-bottom: solid #531230 0.5px;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    /*max-width: 100%;*/
+  }
+
+#content a {
+  color: #531230;
+}
+
+
+
+  #thankyou {
+
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px 0 20px 0;
+  }
+
+  #thankyou h3 {
+        padding-bottom: 10px;
+  }
+
+/*form */
+
+#col1 {
+
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+#col2 {
+
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: right;
+  width: 50%;
+}
+
+/*boxes */
+
+
+#firstname {
+
+  font-family: 'Josefin Sans', sans-serif;
+
+  width: 70%;
+  height: 50px;
+  position: relative;
+  margin: 0;
+}
+
+#lastname {
+
+  font-family: 'Josefin Sans', sans-serif;
+
+  width: 70%;
+  height: 50px;
+  position: relative;
+  margin: 0;
+}
+
+#message {
+  font-family: 'Josefin Sans', sans-serif;
+
+  width: 90%;
+  height: 300px;
+  position: relative;
+  margin: 0;
+}
+
+#contactform input {
+
+  font-family: 'Josefin Sans', sans-serif;
+
+  padding: 10px;
+  font-size: 15px;
+  border: 1.5px solid #531230;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#contactform textarea {
+
+  font-family: 'Josefin Sans', sans-serif;
+
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #531230;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#contactform input[type=submit] {
+  align: center;
+  font-family: 'Josefin Sans', sans-serif;
+
+  font-size: 20px;
+  margin: 0;
+}
+
+#contactform input:hover {
+  color:rgba(109,80,89,.9);
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.4);
+}
+
+#contactform textarea:hover {
+  color:rgba(109,80,89,.9);
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.7);
+}
